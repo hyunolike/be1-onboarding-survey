@@ -4,8 +4,8 @@ import com.innercircle.surveycommon.dto.request.CreateFormRequest
 import com.innercircle.surveycommon.dto.request.QuestionOptionRequest
 import com.innercircle.surveycommon.dto.request.QuestionRequest
 import com.innercircle.surveycommon.exception.InvalidInputException
-import com.innercircle.surveydomain.model.Form
-import com.innercircle.surveydomain.repository.FormRepository
+import com.innercircle.surveydomain.module_infrastructure.module_persistence.entity.Form
+import com.innercircle.surveydomain.module_infrastructure.module_persistence.repository.FormRepository
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows

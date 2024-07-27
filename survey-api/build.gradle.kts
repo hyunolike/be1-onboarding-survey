@@ -9,6 +9,7 @@ plugins {
 dependencies {
     implementation(project(":survey-domain"))
     implementation(project(":survey-common"))
+    runtimeOnly(project(":survey-application"))
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.springframework.boot:spring-boot-starter-aop")

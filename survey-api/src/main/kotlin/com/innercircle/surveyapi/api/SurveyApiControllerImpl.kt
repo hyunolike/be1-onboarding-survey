@@ -1,11 +1,13 @@
 package com.innercircle.surveyapi.api
 
+import com.innercircle.surveyapi.api.dto.request.CreateFormRequest
+import com.innercircle.surveyapi.api.dto.request.FormSubmissionRequest
 import com.innercircle.surveycommon.dto.request.CreateFormRequest
 import com.innercircle.surveycommon.dto.request.FormSubmissionRequest
 import com.innercircle.surveycommon.dto.response.CreateFormResponse
 import com.innercircle.surveycommon.dto.response.FormDto
 import com.innercircle.surveycommon.dto.response.FormSubmissionResponse
-import com.innercircle.surveycommon.dto.response.FormsResponse
+import com.innercircle.surveyapi.api.dto.response.FormsResponse
 import com.innercircle.surveydomain.service.SurveyService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component

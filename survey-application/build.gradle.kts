@@ -9,9 +9,8 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":survey-api"))
     implementation(project(":survey-domain"))
-    implementation(project(":survey-common"))
+    implementation(project(":survey-infrastructure"))
 
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web")

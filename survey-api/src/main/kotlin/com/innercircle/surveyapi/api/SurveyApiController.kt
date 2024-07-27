@@ -2,11 +2,12 @@
 
 package com.innercircle.surveyapi.api
 
+import com.innercircle.surveyapi.api.dto.request.CreateFormRequest
 import com.innercircle.surveycommon.dto.request.CreateFormRequest
 import com.innercircle.surveycommon.dto.request.FormSubmissionRequest
 import com.innercircle.surveycommon.dto.response.CreateFormResponse
 import com.innercircle.surveycommon.dto.response.FormSubmissionResponse
-import com.innercircle.surveycommon.dto.response.FormsResponse
+import com.innercircle.surveyapi.api.dto.response.FormsResponse
 import io.swagger.v3.oas.annotations.Operation
 import io.swagger.v3.oas.annotations.Parameter
 import io.swagger.v3.oas.annotations.media.Content
